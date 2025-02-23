@@ -1,0 +1,9 @@
+harga_dasar = 2500000  
+harga_jual = 3000000  
+jumlah_domba = int(input("Masukkan jumlah domba yang dijual: "))
+total_modal = harga_dasar * jumlah_domba
+total_pendapatan = harga_jual * jumlah_domba
+keuntungan = total_pendapatan - total_modal
+print("Total modal yang dikeluarkan = Rp", total_modal)
+print("Total pendapatan dari penjualan = Rp", total_pendapatan)
+print("Keuntungan yang didapatkan = Rp", keuntungan)
